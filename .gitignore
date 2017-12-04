@@ -1,0 +1,14 @@
+# common
+.DS_Store
+.zip
+# node dependencies
+node_modules
+npm-debug.log
+.idea
+
+# build file
+dist
+
+# test folder
+source/test/e2e/screenshots/
+source/test/unit/results/

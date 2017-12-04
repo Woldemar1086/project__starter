@@ -1,0 +1,93 @@
+// Import
+// PT Sans
+// @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic-ext')
+// Myriad Pro
+// @font-face
+//     font-family: 'Myriad Pro'
+//     src: url('../fonts/myriad-pro-regular/MyriadPro-Regular.eot')
+//     src: url('../fonts/myriad-pro-regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+//     url('../fonts/myriad-pro-regular/MyriadPro-Regular.woff2') format('woff2'),
+//     url('../fonts/myriad-pro-regular/MyriadPro-Regular.woff') format('woff'),
+//     url('../fonts/myriad-pro-regular/MyriadPro-Regular.ttf') format('truetype'),
+//     url('../fonts/myriad-pro-regular/MyriadPro-Regular.otf') format('opentype'),
+//     url('../fonts/myriad-pro-regular/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg')
+//         font-weight: 400
+//         font-style: normal
+//         font-stretch: normal
+//         unicode-range: U+0020-FB04
+
+html
+    -webkit-font-smoothing: antialiased
+
+body
+    font-family: $font-arial
+    font-size: 30px
+    line-height: 1.2
+    color: $color-black
+    text-rendering: optimizeLegibility
+    -webkit-text-rendering: optimizeLegibility
+
+// h1-h6 titles
+h1, h2, h3, h4, h5, h6
+    margin: 0
+    padding: 0
+
+// text (link, bold, italic) : begin
+p
+    margin: 0
+    padding: 0
+    b
+        font-weight: bold
+    i
+        font-style: italic
+    a
+        // default styles for normal links
+        &[href]:not([class])
+        &:hover
+        &:active
+        &:visited
+// text (link, bold, italic) : end
+
+// bulleted list : begin
+ul
+    margin: 0
+    padding: 0
+    li
+        margin: 0
+        padding: 0
+// bulleted list : end
+
+// numbered list : begin
+ol
+    margin: 0
+    padding: 0
+    li
+        margin: 0
+        padding: 0
+// numbered list : end
+
+// table : begin
+// table
+//     width: 100%
+//     margin: 0
+//     padding: 0
+//
+//     &:hover
+//         transition: all 0.2s ease
+//     tr
+//         th,
+//         td
+//             padding: 10px 13px
+//             text-align: left
+//             border: 1px solid #010101
+//
+//         th
+//             font-weight: bold
+//             font-size: 120%
+//
+//     &:last-child
+//         margin-bottom: 0
+// table : end
+
+// hor line
+// hr

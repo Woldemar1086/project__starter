@@ -1,0 +1,34 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        title Главная - App project
+        meta(
+            name="keywords"
+            content=""
+        )
+        meta(
+            name="description"
+            content=""
+        )
+        meta(
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+        )
+        meta(
+            name="format-detection"
+            content="telephone=no"
+        )
+        meta(
+            name="skype-toolbar"
+            content="skype-toolbar-parser-compatible"
+        )
+        link(
+            rel="stylesheet"
+            href="/dist/css/app-project.css"
+        )
+    body
+        #app
+            include ../../public/blocks/example/example.pug
+        script(src="/dist/js/app-project-base.js")
+        script(src="/dist/js/app-project-run.js")
